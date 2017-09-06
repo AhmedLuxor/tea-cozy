@@ -1,0 +1,129 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opactiy: 0.9;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  border-bottom: 1px seashell solid;
+  height: 69px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top:0px;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px;
+}
+
+header nav {
+  align-self: center;
+  padding-right: 30px;
+}
+
+header nav a {
+  color: seashell;
+  padding-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 63px;
+}
+
+main .mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.mission-content {
+  height: 140px;
+  width: 1200px;
+  background-color: black;
+  disply: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.tea-of-the-month-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+}
+
+.tea-of-the-month .tea-of-the-month-content .tea-of-the-month-content-images img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.location {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.location .location-title h4 {
+  margin-bottom: 15px;
+}
+
+.location .location-content .content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  width: 300px;
+  height: 350px;
+  margin-right: 40px;
+  opacity: 1;
+}
+
+.location-content {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  position: relative;
+  top: 50px;
+}
+
+footer .info {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
